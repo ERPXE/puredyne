@@ -1,0 +1,8 @@
+LABEL PUREDYNE32
+MENU LABEL ^Puredyne Live - x32
+KERNEL er/plugins/puredyne/i386/vmlinuz
+INITRD er/plugins/puredyne/i386/initrd.img
+APPEND username=lintian hostname=puredyne quickreboot union=aufs boot=live netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/puredyne/i386/ ramdisk_size=200000 nolock
+TEXT HELP
+                 PureDyne Live x32.
+ENDTEXT

@@ -1,0 +1,16 @@
+.:
+filelist.txt
+i386
+puredyne.menu
+puredyne.png
+x86_64
+
+./i386:
+initrd.img
+puredynemain.menu
+vmlinuz
+
+./x86_64:
+initrd.img
+puredynemain.menu
+vmlinuz
