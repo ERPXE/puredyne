@@ -1,9 +1,6 @@
 MENU BEGIN PUREDYNE
+MENU TITLE Puredyne 911 Carrot and Coriander
 MENU LABEL ^Puredyne 911 Carrot and Coriander
-# ------====> Include Menu Settings <====------
-MENU INCLUDE er/menuinc/header.module
-
-# ------====> Set Specific Page Settings <====------
 MENU BACKGROUND er/plugins/puredyne/puredyne.png
 
 MENU INCLUDE er/plugins/puredyne/i386/puredynemain.menu
